@@ -1,0 +1,13 @@
+Package: sliceR
+Type: Package
+Title: Data Partitioner For Machine Learning
+Version: 0.1.0
+Authors@R: person("Rakha Hafish", "Setiawan", email = "rakha.hafish@gmail.com", role = c("aut", "cre"))
+Maintainer: Rakha Hafish Setiawan <rakha.hafish@gmail.com>
+Description: This package allows the user to easily partition data
+    for supervised machine learning algorithm.
+License: MIT + File LICENSE
+Encoding: UTF-8
+LazyData: true
+Imports: Rcpp (>= 1.0.9), dplyr, magrittr
+LinkingTo: Rcpp

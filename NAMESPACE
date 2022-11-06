@@ -1,0 +1,5 @@
+exportPattern("^[[:alpha:]]+")
+importFrom(Rcpp, evalCpp)
+useDynLib(sliceR, .registration = TRUE)
+importFrom("utils", "View", "head", "install.packages")
+import(dplyr, magrittr)
