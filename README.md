@@ -1,5 +1,5 @@
 # sliceR
-This package allows the user to easily partition data by fraction or whole number for supervised machine learning algorithm.
+This package allows the user to easily partition data for training and testing supervised machine learning models.
 
 ## Installation
 
