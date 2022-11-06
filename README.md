@@ -22,7 +22,7 @@ This Package consists of one function, the user will be prompted with choices fo
 
 ```r
   # Turn directory front slash into back slash
-  sliceR::slice_data(Data, RowNum)
+  sliceR::slice_data(Data, RowAmount)
 ```
 
 ## Version History
