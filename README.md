@@ -14,7 +14,7 @@ devtools::install_github("RakhaHafishSetiawan/sliceR")
     
 ## Function Call
 
-This Package consists of one function, the user will be prompted with choices for data partitioning method.
+This Package consists of one function, the user will be prompted with choices throughout the process.
 
 
 • initialize function by filling in designated data and it's row amount
