@@ -21,7 +21,6 @@ This Package consists of one function, the user will be prompted with choices th
 
 
 ```r
-  # Turn directory front slash into back slash
   sliceR::slice_data(Data, RowAmount)
 ```
 
