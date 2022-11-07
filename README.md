@@ -21,7 +21,7 @@ This Package consists of one function, the user will be prompted with choices th
 
 
 ```r
-  sliceR::slice_data(Data, RowAmount)
+  sliceR::sliceR_init(Data, RowAmount)
 ```
 
 ## Version History
