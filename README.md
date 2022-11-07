@@ -26,6 +26,9 @@ This Package consists of one function, the user will be prompted with choices th
 
 ## Version History
 
+* 0.1.1
+    * Bug fixes
+
 * 0.1.0
     * Initial release
 
