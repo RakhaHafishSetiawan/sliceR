@@ -10,7 +10,7 @@ sliceR_init <- function(Data, RowAmount){
 
   yourSample <<- sample(nrow(Data), 1*nrow(Data), replace = FALSE)
   dataRandom <<- data.frame(Data)[yourSample,]
-  print("Data rows have been successfully shuffled")
+  message("Data rows have been successfully shuffled")
 
   ans <<- readline(prompt = "Would you like to part your data? (yes/no) ")
 
@@ -30,12 +30,12 @@ sliceR_init <- function(Data, RowAmount){
     View(dataTrain)
     View(dataTest)
 
-    print("Task was done succesfully, please check your Global Environment for dataTrain and dataTest")
+    message("Task was done succesfully, please check your Global Environment for dataTrain and dataTest")
 
   }  else if (ans == "no") {
 
     View(dataRandom)
-    print("Task was done succesfully, please check your Global Environment for dataRandom")
+    message("Task was done succesfully, please check your Global Environment for dataRandom")
 
   }
 
